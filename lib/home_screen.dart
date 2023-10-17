@@ -11,12 +11,12 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  Completer<GoogleMapController> _completer = Completer();
+  final Completer<GoogleMapController> _completer = Completer();
   static const CameraPosition _kGooglePlex = CameraPosition(
     target: LatLng(34.006962, 71.533058),
     zoom: 14.4746,
   );
-  List<Marker> _marker = [];
+  final List<Marker> _marker = [];
   final List<Marker> _list = const [
     Marker(
       markerId: MarkerId('1'),
@@ -32,7 +32,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _marker.addAll(_list);
   }
