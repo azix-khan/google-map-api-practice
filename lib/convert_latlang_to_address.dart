@@ -32,11 +32,13 @@ class _ConvertLatLangToAddressState extends State<ConvertLatLangToAddress> {
                   await placemarkFromCoordinates(52.2165157, 6.9437819);
 
               setState(() {
+                // ignore: prefer_interpolation_to_compose_strings
                 stAddress = locations.last.latitude.toString() +
-                    "" +
+                    " " +
                     locations.last.longitude.toString();
+                // ignore: prefer_interpolation_to_compose_strings
                 stAdd = placemarks.reversed.last.country.toString() +
-                    "" +
+                    " " +
                     placemarks.reversed.last.locality.toString();
               });
             },

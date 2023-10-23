@@ -20,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final List<Marker> _list = const [
     Marker(
       markerId: MarkerId('1'),
-      position: LatLng(34.006962, 71.533058),
+      position: LatLng(37.4219983, -122.084),
       infoWindow: InfoWindow(title: 'My Current Position'),
     ),
     Marker(
