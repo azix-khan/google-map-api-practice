@@ -33,11 +33,12 @@ class _GetUserCurrentLoctionScreenState
 
       _marker.add(
         Marker(
-            markerId: const MarkerId('2'),
-            position: LatLng(value.latitude, value.longitude),
-            infoWindow: const InfoWindow(
-              title: 'My Current Location',
-            )),
+          markerId: const MarkerId('2'),
+          position: LatLng(value.latitude, value.longitude),
+          infoWindow: const InfoWindow(
+            title: 'My Current Location',
+          ),
+        ),
       );
       CameraPosition cameraPosition = CameraPosition(
         zoom: 14,
@@ -81,11 +82,12 @@ class _GetUserCurrentLoctionScreenState
 
             _marker.add(
               Marker(
-                  markerId: const MarkerId('2'),
-                  position: LatLng(value.latitude, value.longitude),
-                  infoWindow: const InfoWindow(
-                    title: 'My Current Location',
-                  )),
+                markerId: const MarkerId('2'),
+                position: LatLng(value.latitude, value.longitude),
+                infoWindow: const InfoWindow(
+                  title: 'My Current Location',
+                ),
+              ),
             );
             CameraPosition cameraPosition = CameraPosition(
               zoom: 14,
