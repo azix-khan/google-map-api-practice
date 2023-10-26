@@ -38,6 +38,8 @@ dependencies:
   google_maps_flutter:
   geocoding: ^2.1.1
   geolocator: ^10.1.0
+  http:
+  uuid: ^4.1.0 # use to get any device id
 
 dev_dependencies:
   flutter_test:
