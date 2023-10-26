@@ -35,6 +35,7 @@ class _GooglePlacesApiScreenState extends State<GooglePlacesApiScreen> {
   }
 
   void getSuggestion(String input) async {
+    // NOTE: add your api below
     String kPLACES_API_KEY = 'YOur Api key';
     String baseURL =
         'https://maps.googleapis.com/maps/api/place/autocomplete/json';

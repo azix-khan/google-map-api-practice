@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_maps/convert_latlang_to_address.dart';
-import 'package:google_maps/get_user_current_location.dart';
-import 'package:google_maps/google_places_api.dart';
-import 'package:google_maps/home_screen.dart';
+import 'package:google_maps/custom_markers.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const GooglePlacesApiScreen(),
+      home: const CustomMarkerScreen(),
     );
   }
 }
