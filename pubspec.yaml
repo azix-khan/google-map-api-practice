@@ -40,6 +40,7 @@ dependencies:
   geolocator: ^10.1.0
   http:
   uuid: ^4.1.0 # use to get any device id
+  custom_info_window: ^1.0.1
 
 dev_dependencies:
   flutter_test:
@@ -71,6 +72,7 @@ flutter:
     - images/user.png
     - images/user1.png
     - images/user2.png
+    - images/sea.jpg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
