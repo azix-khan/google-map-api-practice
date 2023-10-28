@@ -26,6 +26,7 @@ class _GooglePlacesApiScreenState extends State<GooglePlacesApiScreen> {
   }
 
   void onChanged() {
+    // ignore: unnecessary_null_comparison
     if (_sessionToken == null) {
       setState(() {
         _sessionToken = uuid.v4();
