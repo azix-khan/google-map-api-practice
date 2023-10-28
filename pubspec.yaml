@@ -73,6 +73,10 @@ flutter:
     - images/user1.png
     - images/user2.png
     - images/sea.jpg
+    - assets/maptheme/silver_theme.json
+    - assets/maptheme/night_theme.json
+    - assets/maptheme/retro_theme.json
+    - assets/maptheme/standard_theme.json
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
