@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_maps/custom_marker_info_window.dart';
+import 'package:google_maps/polygone_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const CustomMarkerInfoWindowScreen(),
+      home: const PolygoneScreen(),
     );
   }
 }
